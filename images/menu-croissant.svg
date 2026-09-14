@@ -1,0 +1,17 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t2">
+<title id="t2">Almond croissant</title>
+<rect width="300" height="300" rx="20" fill="#EFD9D9"/>
+<ellipse cx="150" cy="215" rx="90" ry="12" fill="#3C2A21" opacity="0.1"/>
+<g transform="translate(58 130)">
+  <path d="M0 55 C 8 10 55 -14 92 6 C 128 -14 170 8 164 46 C 182 55 178 82 150 84 C 138 104 106 104 92 84 C 76 104 42 104 30 84 C 0 82 -10 62 0 55 Z" fill="#C7873B" stroke="#3C2A21" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M22 40 C 44 26 62 34 74 26" fill="none" stroke="#3C2A21" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M74 32 C 92 18 110 28 124 20" fill="none" stroke="#3C2A21" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M124 28 C 138 16 150 24 160 18" fill="none" stroke="#3C2A21" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+  <g fill="#FAF3E8" stroke="#3C2A21" stroke-width="2">
+    <circle cx="40" cy="50" r="5"/>
+    <circle cx="80" cy="60" r="5"/>
+    <circle cx="120" cy="46" r="5"/>
+    <circle cx="60" cy="30" r="5"/>
+  </g>
+</g>
+</svg>

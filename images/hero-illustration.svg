@@ -1,0 +1,40 @@
+<svg viewBox="0 0 520 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroTitle">
+  <title id="heroTitle">Illustration of a latte cup with steam beside a croissant</title>
+  <!-- backdrop blob -->
+  <path d="M 96 154 C 150 62 320 46 400 118 C 468 178 476 300 420 372 C 358 452 190 470 118 400 C 42 326 46 238 96 154 Z" fill="#F0E4CE"/>
+
+  <!-- table line -->
+  <line x1="70" y1="418" x2="450" y2="418" stroke="#C7873B" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- steam -->
+  <path d="M 230 150 C 218 130 244 118 232 96 C 222 78 240 62 234 46" fill="none" stroke="#7A8B6F" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 278 150 C 266 128 292 116 280 92 C 270 74 288 58 282 40" fill="none" stroke="#7A8B6F" stroke-width="7" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- saucer -->
+  <ellipse cx="255" cy="400" rx="120" ry="16" fill="#3C2A21" opacity="0.12"/>
+
+  <!-- cup body -->
+  <path d="M 168 200 L 190 372 C 192 388 210 400 228 400 L 296 400 C 314 400 332 388 334 372 L 356 200 Z" fill="#FFFFFF" stroke="#3C2A21" stroke-width="7" stroke-linejoin="round"/>
+
+  <!-- coffee surface -->
+  <ellipse cx="262" cy="205" rx="94" ry="18" fill="#8A5A2B"/>
+  <ellipse cx="262" cy="203" rx="94" ry="16" fill="#3C2A21"/>
+
+  <!-- latte art heart -->
+  <path d="M 262 196 C 256 188 242 190 242 200 C 242 210 262 220 262 220 C 262 220 282 210 282 200 C 282 190 268 188 262 196 Z" fill="#E9DFCF"/>
+
+  <!-- handle -->
+  <path d="M 356 230 C 400 230 402 300 358 306" fill="none" stroke="#3C2A21" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- croissant -->
+  <g transform="translate(88 320)">
+    <path d="M0 40 C 6 8 40 -10 66 4 C 92 -10 122 6 118 34 C 130 40 128 60 108 62 C 100 76 78 76 66 62 C 54 76 30 76 22 62 C 2 60 -6 46 0 40 Z" fill="#C7873B" stroke="#3C2A21" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M18 30 C 34 20 46 26 54 20" fill="none" stroke="#3C2A21" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+    <path d="M54 24 C 66 14 78 22 88 16" fill="none" stroke="#3C2A21" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+    <path d="M88 22 C 98 14 106 20 112 16" fill="none" stroke="#3C2A21" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  </g>
+
+  <!-- blush accent dot -->
+  <circle cx="410" cy="120" r="10" fill="#E7A2A2"/>
+  <circle cx="100" cy="260" r="7" fill="#E7A2A2"/>
+</svg>

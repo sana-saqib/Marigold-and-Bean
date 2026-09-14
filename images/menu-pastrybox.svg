@@ -1,0 +1,12 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t6">
+<title id="t6">Weekend pastry box</title>
+<rect width="300" height="300" rx="20" fill="#EFD9D9"/>
+<ellipse cx="150" cy="235" rx="92" ry="10" fill="#3C2A21" opacity="0.1"/>
+<rect x="70" y="150" width="160" height="80" rx="4" fill="#E9DFCF" stroke="#3C2A21" stroke-width="6"/>
+<path d="M 70 150 L 110 110 L 190 110 L 230 150 Z" fill="#C7873B" stroke="#3C2A21" stroke-width="6" stroke-linejoin="round"/>
+<line x1="150" y1="110" x2="150" y2="150" stroke="#3C2A21" stroke-width="4"/>
+<circle cx="105" cy="185" r="16" fill="#EFD9A0" stroke="#3C2A21" stroke-width="4"/>
+<circle cx="150" cy="190" r="14" fill="#7A8B6F" stroke="#3C2A21" stroke-width="4"/>
+<circle cx="195" cy="185" r="16" fill="#E7A2A2" stroke="#3C2A21" stroke-width="4"/>
+<path d="M 130 128 C 140 120 160 120 170 128" fill="none" stroke="#3C2A21" stroke-width="4" stroke-linecap="round"/>
+</svg>

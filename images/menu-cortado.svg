@@ -1,0 +1,9 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t1">
+<title id="t1">Cortado in a small glass</title>
+<rect width="300" height="300" rx="20" fill="#F0E4CE"/>
+<ellipse cx="150" cy="230" rx="60" ry="10" fill="#3C2A21" opacity="0.1"/>
+<path d="M 108 100 L 118 220 C 119 230 128 236 138 236 L 162 236 C 172 236 181 230 182 220 L 192 100 Z" fill="#FFFFFF" stroke="#3C2A21" stroke-width="6" stroke-linejoin="round"/>
+<ellipse cx="150" cy="104" rx="42" ry="9" fill="#5a4636"/>
+<ellipse cx="150" cy="102" rx="42" ry="8" fill="#3C2A21"/>
+<path d="M 118 96 L 182 96" stroke="#3C2A21" stroke-width="6" stroke-linecap="round"/>
+</svg>

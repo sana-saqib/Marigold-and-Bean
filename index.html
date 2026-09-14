@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marigold &amp; Bean — Cafe</title>
+<meta name="description" content="A neighborhood cafe pouring single-origin coffee and baking everything from scratch, every morning.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Karla:wght@400;500;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ HEADER (flexbox) ============ -->
+  <header class="site-header">
+    <div class="logo">Marigold <span>&amp;</span> Bean</div>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html" class="nav-cta">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ============ HERO (flexbox + absolute positioning) ============ -->
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Open daily · 7 AM – 6 PM</p>
+      <h1>Slow mornings, <br><em>fast</em> friends.</h1>
+      <p class="hero-sub">A neighborhood cafe pouring single-origin coffee and baking everything from scratch, every single morning.</p>
+      <div class="hero-actions">
+        <a href="menu.html" class="btn btn-primary">See the menu</a>
+        <a href="about.html#visit" class="btn btn-ghost">Find us</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <img src="images/hero-illustration.svg" alt="Illustration of a latte with heart-shaped latte art next to a croissant" width="420" height="420">
+    </div>
+  </section>
+
+  <!-- ============ HIGHLIGHTS (CSS Grid teaser of the menu) ============ -->
+  <section class="menu" id="menu">
+    <h2 class="section-title">From the counter</h2>
+    <div class="menu-grid">
+      <article class="menu-item reveal">
+        <img class="menu-icon" src="images/menu-cortado.svg" alt="" aria-hidden="true">
+        <p class="menu-index">01</p>
+        <h3>Cortado</h3>
+        <p>Double shot, cut with warm milk, served in glass.</p>
+        <p class="menu-price">750/-</p>
+      </article>
+      <article class="menu-item reveal">
+        <img class="menu-icon" src="images/menu-croissant.svg" alt="" aria-hidden="true">
+        <p class="menu-index">02</p>
+        <h3>Almond Croissant</h3>
+        <p>Twice-baked, filled with almond cream, dusted warm.</p>
+        <p class="menu-price">1260/-</p>
+      </article>
+      <article class="menu-item menu-item-accent reveal">
+        <img class="menu-icon" src="images/menu-pastrybox.svg" alt="" aria-hidden="true">
+        <p class="menu-index">03</p>
+        <h3>Weekend Pastry Box</h3>
+        <p>Four seasonal pastries, boxed for the table.</p>
+        <p class="menu-price">from 500/-</p>
+      </article>
+    </div>
+    <p style="margin-top:2rem;"><a href="menu.html" class="btn btn-ghost">View full menu</a></p>
+  </section>
+
+  <!-- ============ VISIT (flexbox row) ============ -->
+  <section class="visit" id="visit">
+    <h2 class="section-title">Planning a visit</h2>
+    <div class="visit-row">
+      <div class="step reveal">
+        <p class="step-num">1</p>
+        <h4>Grab a table</h4>
+        <p>Window seats fill first — come early or come late.</p>
+      </div>
+      <div class="step reveal">
+        <p class="step-num">2</p>
+        <h4>Order at the counter</h4>
+        <p>We'll bring it over once it's ready, no need to wait in line.</p>
+      </div>
+      <div class="step reveal">
+        <p class="step-num">3</p>
+        <h4>Stay as long as you like</h4>
+        <p>Free wifi, real mugs, and no rush to turn the table.</p>
+      </div>
+      <div class="step reveal">
+        <p class="step-num">4</p>
+        <h4>Take some home</h4>
+        <p>Beans by the bag, pastries by the box, near the door.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ REVIEWS (flexbox) ============ -->
+  <section class="reviews" id="reviews">
+    <h2 class="section-title">What people say</h2>
+    <div class="review-row">
+      <blockquote class="review-card reveal">
+        <p>"The lavender latte is worth rearranging my whole morning for."</p>
+        <cite>— Amara, regular</cite>
+      </blockquote>
+      <blockquote class="review-card reveal">
+        <p>"First cafe in the area where I can actually sit and work for hours."</p>
+        <cite>— Leah, remote worker</cite>
+      </blockquote>
+      <blockquote class="review-card reveal">
+        <p>"Bought the pastry box for a friend's birthday — gone in ten minutes."</p>
+        <cite>— Noor, neighbor</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER (flexbox columns) ============ -->
+  <footer class="site-footer">
+    <div class="footer-col">
+      <p class="logo">Marigold <span>&amp;</span> Bean</p>
+      <p>118 Lake City<br>Open daily, 7 AM – 6 PM</p>
+    </div>
+    <div class="footer-col">
+      <h5>Order online</h5>
+      <p>(555) 083-7710<br>hello@marigoldandbean.example</p>
+    </div>
+    <div class="footer-col">
+      <h5>Quick links</h5>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
