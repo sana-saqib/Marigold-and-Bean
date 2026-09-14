@@ -78,9 +78,16 @@ img { max-width: 100%; display: block; }
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 1.3rem;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
 }
 .logo span { color: var(--blush); }
+.logo-mark {
+  width: 2.15rem;
+  height: 2.15rem;
+  flex: 0 0 auto;
+}
 
 .main-nav {
   display: flex;
