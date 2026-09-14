@@ -1,0 +1,8 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="g2">
+<title id="g2">Close up of latte art</title>
+<rect width="400" height="300" fill="#EFD9D9"/>
+<circle cx="200" cy="150" r="110" fill="#FFFFFF" stroke="#3C2A21" stroke-width="6"/>
+<circle cx="200" cy="150" r="94" fill="#5a3a22"/>
+<path d="M 200 100 C 185 88 160 92 160 118 C 160 148 200 178 200 178 C 200 178 240 148 240 118 C 240 92 215 88 200 100 Z" fill="#E9DFCF"/>
+<path d="M 200 178 L 200 220" stroke="#E9DFCF" stroke-width="6" stroke-linecap="round"/>
+</svg>
