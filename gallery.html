@@ -12,8 +12,8 @@
 <body>
 
   <header class="site-header">
-    <div class="logo">Marigold <span>&amp;</span> Bean</div>
-    <nav class="main-nav" id="main-nav">
+    <a class="logo" href="index.html">Marigold <span>&amp;</span> Bean</a>
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="menu.html">Menu</a>
@@ -25,36 +25,37 @@
     </button>
   </header>
 
-  <section class="page-hero">
-    <p class="eyebrow">A look inside</p>
-    <h1>Gallery</h1>
-    <p>A few corners of the shop. Click any photo for a closer look — use the arrow keys or the buttons to move between them.</p>
-  </section>
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">A look inside</p>
+      <h1>Gallery</h1>
+      <p>A few corners of the shop. Click any photo for a closer look — use the arrow keys or the buttons to move between them.</p>
+    </section>
 
-  <section class="gallery">
-    <div class="gallery-grid">
-      <button class="gallery-thumb" data-full="images/gallery-counter.svg" data-caption="The espresso counter, mid-morning">
-        <img src="images/gallery-counter.svg" alt="Illustration of the espresso counter with a barista at work">
-      </button>
-      <button class="gallery-thumb" data-full="images/gallery-latteart.svg" data-caption="A heart poured into a flat white">
-        <img src="images/gallery-latteart.svg" alt="Close-up illustration of heart-shaped latte art">
-      </button>
-      <button class="gallery-thumb" data-full="images/gallery-pastrycase.svg" data-caption="The pastry case, restocked at 7 AM">
-        <img src="images/gallery-pastrycase.svg" alt="Illustration of the pastry display case with croissants and loaves">
-      </button>
-      <button class="gallery-thumb" data-full="images/gallery-seating.svg" data-caption="Window seating, our most requested spot">
-        <img src="images/gallery-seating.svg" alt="Illustration of a window seating area with a plant">
-      </button>
-      <button class="gallery-thumb" data-full="images/gallery-beans.svg" data-caption="Beans bagged fresh, ready to take home">
-        <img src="images/gallery-beans.svg" alt="Illustration of two bags of coffee beans and loose beans">
-      </button>
-      <button class="gallery-thumb" data-full="images/gallery-window.svg" data-caption="The storefront window from the sidewalk">
-        <img src="images/gallery-window.svg" alt="Illustration of the storefront window with hanging plants">
-      </button>
-    </div>
-  </section>
+    <section class="gallery">
+      <div class="gallery-grid">
+        <button class="gallery-thumb" data-full="images/gallery-counter.jpg" data-caption="The espresso counter, mid-morning">
+          <img src="images/gallery-counter.jpg" alt="Espresso counter with a barista at the machine">
+        </button>
+        <button class="gallery-thumb" data-full="images/gallery-latteart.jpg" data-caption="A heart poured into a flat white">
+          <img src="images/gallery-latteart.jpg" alt="Close-up of heart-shaped latte art">
+        </button>
+        <button class="gallery-thumb" data-full="images/gallery-pastrycase.jpg" data-caption="The pastry case, restocked at 7 AM">
+          <img src="images/gallery-pastrycase.jpg" alt="Pastry display case with croissants and cakes">
+        </button>
+        <button class="gallery-thumb" data-full="images/gallery-seating.jpg" data-caption="Window seating, our most requested spot">
+          <img src="images/gallery-seating.jpg" alt="Window seating with a plant and a latte">
+        </button>
+        <button class="gallery-thumb" data-full="images/gallery-beans.jpg" data-caption="Beans bagged fresh, ready to take home">
+          <img src="images/gallery-beans.jpg" alt="Bags of roasted coffee beans on a wooden counter">
+        </button>
+        <button class="gallery-thumb" data-full="images/gallery-window.jpg" data-caption="The storefront window from the sidewalk">
+          <img src="images/gallery-window.jpg" alt="Cafe storefront window with hanging plants">
+        </button>
+      </div>
+    </section>
+  </main>
 
-  <!-- Lightbox: hidden by default, opened via JS -->
   <div class="lightbox" aria-hidden="true">
     <div class="lightbox-inner">
       <button class="lightbox-close" aria-label="Close">✕</button>
@@ -65,7 +66,7 @@
     </div>
   </div>
 
-  <footer class="site-footer" id="contact">
+  <footer class="site-footer">
     <div class="footer-col">
       <p class="logo">Marigold <span>&amp;</span> Bean</p>
       <p>118 Lake City<br>Open daily, 7 AM – 6 PM</p>
@@ -76,11 +77,22 @@
     </div>
     <div class="footer-col">
       <h5>Quick links</h5>
-      <a href="menu.html">Menu</a>
-      <a href="about.html">About</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="contact.html">Contact</a>
+      <ul>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </div>
+    <div class="footer-col">
+      <h5>Follow</h5>
+      <ul class="social-links">
+        <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+        <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+        <li><a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+      </ul>
+    </div>
+    <p class="copyright">&copy; 2026 Marigold &amp; Bean. All rights reserved.</p>
   </footer>
 
   <button class="back-to-top" aria-label="Back to top">↑</button>

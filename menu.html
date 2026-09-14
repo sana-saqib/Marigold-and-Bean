@@ -12,8 +12,8 @@
 <body>
 
   <header class="site-header">
-    <div class="logo">Marigold <span>&amp;</span> Bean</div>
-    <nav class="main-nav" id="main-nav">
+    <a class="logo" href="index.html">Marigold <span>&amp;</span> Bean</a>
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="menu.html">Menu</a>
@@ -25,66 +25,68 @@
     </button>
   </header>
 
-  <section class="page-hero">
-    <p class="eyebrow">From the counter</p>
-    <h1>The full menu</h1>
-    <p>Everything is made in-house — coffee pulled to order, pastries baked before sunrise. Prices shown in local currency.</p>
-  </section>
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">From the counter</p>
+      <h1>The full menu</h1>
+      <p>Everything is made in-house — coffee pulled to order, pastries baked before sunrise. Prices shown in local currency.</p>
+    </section>
 
-  <section class="menu" id="menu">
-    <div class="menu-filter" role="group" aria-label="Filter menu by category">
-      <button data-filter="all" class="active">All</button>
-      <button data-filter="drinks">Drinks</button>
-      <button data-filter="bakes">Bakes</button>
-    </div>
+    <section class="menu" id="menu">
+      <div class="menu-filter" role="group" aria-label="Filter menu by category">
+        <button data-filter="all" class="active">All</button>
+        <button data-filter="drinks">Drinks</button>
+        <button data-filter="bakes">Bakes</button>
+      </div>
 
-    <div class="menu-grid">
-      <article class="menu-item reveal" data-category="drinks">
-        <img class="menu-icon" src="images/menu-cortado.svg" alt="" aria-hidden="true">
-        <p class="menu-index">01</p>
-        <h3>Cortado</h3>
-        <p>Double shot, cut with warm milk, served in glass.</p>
-        <p class="menu-price">750/-</p>
-      </article>
-      <article class="menu-item reveal" data-category="bakes">
-        <img class="menu-icon" src="images/menu-croissant.svg" alt="" aria-hidden="true">
-        <p class="menu-index">02</p>
-        <h3>Almond Croissant</h3>
-        <p>Twice-baked, filled with almond cream, dusted warm.</p>
-        <p class="menu-price">1260/-</p>
-      </article>
-      <article class="menu-item reveal" data-category="drinks">
-        <img class="menu-icon" src="images/menu-matcha.svg" alt="" aria-hidden="true">
-        <p class="menu-index">03</p>
-        <h3>Matcha Oat Latte</h3>
-        <p>Ceremonial grade, whisked to order, lightly sweetened.</p>
-        <p class="menu-price">750/-</p>
-      </article>
-      <article class="menu-item reveal" data-category="bakes">
-        <img class="menu-icon" src="images/menu-loaf.svg" alt="" aria-hidden="true">
-        <p class="menu-index">04</p>
-        <h3>Lemon Poppyseed Loaf</h3>
-        <p>A thin slice, glazed, kept next to the register.</p>
-        <p class="menu-price">1100/-</p>
-      </article>
-      <article class="menu-item reveal" data-category="drinks">
-        <img class="menu-icon" src="images/menu-coldbrew.svg" alt="" aria-hidden="true">
-        <p class="menu-index">05</p>
-        <h3>Cold Brew</h3>
-        <p>Steeped eighteen hours, served over one large cube.</p>
-        <p class="menu-price">850/-</p>
-      </article>
-      <article class="menu-item menu-item-accent reveal" data-category="bakes">
-        <img class="menu-icon" src="images/menu-pastrybox.svg" alt="" aria-hidden="true">
-        <p class="menu-index">06</p>
-        <h3>Weekend Pastry Box</h3>
-        <p>Four seasonal pastries, boxed for the table.</p>
-        <p class="menu-price">from 500/-</p>
-      </article>
-    </div>
-  </section>
+      <div class="menu-grid">
+        <article class="menu-item reveal" data-category="drinks">
+          <img class="menu-icon" src="images/menu-cortado.jpg" alt="Cortado in a small glass">
+          <p class="menu-index">01</p>
+          <h3>Cortado</h3>
+          <p>Double shot, cut with warm milk, served in glass.</p>
+          <p class="menu-price">750/-</p>
+        </article>
+        <article class="menu-item reveal" data-category="bakes">
+          <img class="menu-icon" src="images/menu-croissant.jpg" alt="Almond croissant with powdered sugar">
+          <p class="menu-index">02</p>
+          <h3>Almond Croissant</h3>
+          <p>Twice-baked, filled with almond cream, dusted warm.</p>
+          <p class="menu-price">1260/-</p>
+        </article>
+        <article class="menu-item reveal" data-category="drinks">
+          <img class="menu-icon" src="images/menu-matcha.jpg" alt="Matcha oat latte in a ceramic cup">
+          <p class="menu-index">03</p>
+          <h3>Matcha Oat Latte</h3>
+          <p>Ceremonial grade, whisked to order, lightly sweetened.</p>
+          <p class="menu-price">750/-</p>
+        </article>
+        <article class="menu-item reveal" data-category="bakes">
+          <img class="menu-icon" src="images/menu-loaf.jpg" alt="Glazed slice of lemon poppyseed loaf">
+          <p class="menu-index">04</p>
+          <h3>Lemon Poppyseed Loaf</h3>
+          <p>A thin slice, glazed, kept next to the register.</p>
+          <p class="menu-price">1100/-</p>
+        </article>
+        <article class="menu-item reveal" data-category="drinks">
+          <img class="menu-icon" src="images/menu-coldbrew.jpg" alt="Cold brew over a large ice cube">
+          <p class="menu-index">05</p>
+          <h3>Cold Brew</h3>
+          <p>Steeped eighteen hours, served over one large cube.</p>
+          <p class="menu-price">850/-</p>
+        </article>
+        <article class="menu-item menu-item-accent reveal" data-category="bakes">
+          <img class="menu-icon" src="images/menu-pastrybox.jpg" alt="Weekend pastry box with four pastries">
+          <p class="menu-index">06</p>
+          <h3>Weekend Pastry Box</h3>
+          <p>Four seasonal pastries, boxed for the table.</p>
+          <p class="menu-price">from 500/-</p>
+        </article>
+      </div>
+    </section>
+  </main>
 
-  <footer class="site-footer" id="contact">
+  <footer class="site-footer">
     <div class="footer-col">
       <p class="logo">Marigold <span>&amp;</span> Bean</p>
       <p>118 Lake City<br>Open daily, 7 AM – 6 PM</p>
@@ -95,11 +97,22 @@
     </div>
     <div class="footer-col">
       <h5>Quick links</h5>
-      <a href="menu.html">Menu</a>
-      <a href="about.html">About</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="contact.html">Contact</a>
+      <ul>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </div>
+    <div class="footer-col">
+      <h5>Follow</h5>
+      <ul class="social-links">
+        <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+        <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+        <li><a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+      </ul>
+    </div>
+    <p class="copyright">&copy; 2026 Marigold &amp; Bean. All rights reserved.</p>
   </footer>
 
   <button class="back-to-top" aria-label="Back to top">↑</button>
