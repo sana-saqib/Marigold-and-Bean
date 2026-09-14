@@ -1,0 +1,11 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t3">
+<title id="t3">Matcha oat latte</title>
+<rect width="300" height="300" rx="20" fill="#E4E9DC"/>
+<ellipse cx="150" cy="235" rx="72" ry="10" fill="#3C2A21" opacity="0.1"/>
+<path d="M 96 110 L 108 218 C 109 228 118 236 128 236 L 172 236 C 182 236 191 228 192 218 L 204 110 Z" fill="#FFFFFF" stroke="#3C2A21" stroke-width="6" stroke-linejoin="round"/>
+<ellipse cx="150" cy="114" rx="54" ry="10" fill="#7A8B6F"/>
+<ellipse cx="150" cy="112" rx="54" ry="9" fill="#5c6b52"/>
+<path d="M 204 130 C 236 130 238 178 206 182" fill="none" stroke="#3C2A21" stroke-width="6" stroke-linecap="round"/>
+<path d="M 118 90 C 112 78 122 70 116 58" fill="none" stroke="#7A8B6F" stroke-width="5" stroke-linecap="round"/>
+<path d="M 150 84 C 144 72 154 64 148 52" fill="none" stroke="#7A8B6F" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+</svg>
