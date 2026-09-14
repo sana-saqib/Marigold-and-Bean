@@ -12,8 +12,8 @@
 <body>
 
   <header class="site-header">
-    <div class="logo">Marigold <span>&amp;</span> Bean</div>
-    <nav class="main-nav" id="main-nav">
+    <a class="logo" href="index.html">Marigold <span>&amp;</span> Bean</a>
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="menu.html">Menu</a>
@@ -25,95 +25,108 @@
     </button>
   </header>
 
-  <section class="page-hero">
-    <p class="eyebrow">Our story</p>
-    <h1>Built around one long table</h1>
-    <p>Marigold &amp; Bean started in 2019 as a single espresso cart at the Sunday farmers' market. Three years and a lot of regulars later, we found a corner shop on Lake City with good morning light and never left.</p>
-  </section>
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Our story</p>
+      <h1>Built around one long table</h1>
+      <p>Marigold &amp; Bean started in 2019 as a single espresso cart at the Sunday farmers' market. Three years and a lot of regulars later, we found a corner shop on Lake City with good morning light and never left.</p>
+    </section>
 
-  <section class="about-intro">
-    <div class="about-copy">
-      <h2 class="section-title">Why we do this</h2>
-      <p>We roast in small batches with two local farms we've worked with since year one, and we bake everything — bread, pastries, the lot — on-site before sunrise. Nothing is trucked in frozen; if we can't make it fresh that morning, it isn't on the menu that day.</p>
-      <p>The room is built for staying a while: big windows, real mugs, and a "no rush" house rule. Half our regulars come for the coffee. The other half come for the table next to them.</p>
-    </div>
-    <div class="about-visual">
-      <img src="images/about-illustration.svg" alt="Illustration of the Marigold and Bean storefront with its awning and sidewalk sign" width="560" height="400">
-    </div>
-  </section>
+    <section class="about-intro">
+      <div class="about-copy">
+        <h2 class="section-title">Why we do this</h2>
+        <p>We roast in small batches with two local farms we've worked with since year one, and we bake everything — bread, pastries, the lot — on-site before sunrise. Nothing is trucked in frozen; if we can't make it fresh that morning, it isn't on the menu that day.</p>
+        <p>The room is built for staying a while: big windows, real mugs, and a "no rush" house rule. Half our regulars come for the coffee. The other half come for the table next to them.</p>
+      </div>
+      <div class="about-visual">
+        <img src="images/about.jpg" alt="Marigold and Bean storefront with a warm awning and sidewalk tables" width="560" height="420">
+      </div>
+    </section>
 
-  <section class="values">
-    <h2 class="section-title">What we care about</h2>
-    <div class="values-grid">
-      <article class="value-card reveal">
-        <h3>Sourced honestly</h3>
-        <p>Direct-trade beans, named farms, and a roast date printed on every bag we sell.</p>
-      </article>
-      <article class="value-card reveal">
-        <h3>Baked that morning</h3>
-        <p>Our kitchen opens at 4 AM. Whatever's left at close doesn't reappear tomorrow.</p>
-      </article>
-      <article class="value-card reveal">
-        <h3>Built for lingering</h3>
-        <p>Free wifi, plenty of outlets, and no time limit on a window seat.</p>
-      </article>
-    </div>
-  </section>
+    <section class="values">
+      <h2 class="section-title">What we care about</h2>
+      <div class="values-grid">
+        <article class="value-card reveal">
+          <h3>Sourced honestly</h3>
+          <p>Direct-trade beans, named farms, and a roast date printed on every bag we sell.</p>
+        </article>
+        <article class="value-card reveal">
+          <h3>Baked that morning</h3>
+          <p>Our kitchen opens at 4 AM. Whatever's left at close doesn't reappear tomorrow.</p>
+        </article>
+        <article class="value-card reveal">
+          <h3>Built for lingering</h3>
+          <p>Free wifi, plenty of outlets, and no time limit on a window seat.</p>
+        </article>
+      </div>
+    </section>
 
-  <section class="hours-table-wrap" id="visit">
-    <h2 class="section-title">Hours</h2>
-    <table class="hours-table">
-      <caption>Kitchen &amp; counter hours</caption>
-      <thead>
-        <tr><th scope="col">Day</th><th scope="col">Counter</th><th scope="col">Kitchen closes</th></tr>
-      </thead>
-      <tbody>
-        <tr><th scope="row">Mon – Fri</th><td>7:00 AM – 6:00 PM</td><td>5:15 PM</td></tr>
-        <tr><th scope="row">Saturday</th><td>7:30 AM – 6:00 PM</td><td>5:15 PM</td></tr>
-        <tr><th scope="row">Sunday</th><td>8:00 AM – 4:00 PM</td><td>3:15 PM</td></tr>
-      </tbody>
-    </table>
-  </section>
+    <section class="hours-layout" id="visit">
+      <div class="hours-table-wrap">
+        <h2 class="section-title">Hours</h2>
+        <table class="hours-table">
+          <caption>Kitchen &amp; counter hours</caption>
+          <thead>
+            <tr><th scope="col">Day</th><th scope="col">Counter</th><th scope="col">Kitchen closes</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Mon – Fri</th><td>7:00 AM – 6:00 PM</td><td>5:15 PM</td></tr>
+            <tr><th scope="row">Saturday</th><td>7:30 AM – 6:00 PM</td><td>5:15 PM</td></tr>
+            <tr><th scope="row">Sunday</th><td>8:00 AM – 4:00 PM</td><td>3:15 PM</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <aside class="hours-aside">
+        <h2 class="section-title">Good to know</h2>
+        <ul>
+          <li>Window seats fill first on weekends.</li>
+          <li>Gluten-free bakes on Thursday and weekends.</li>
+          <li>Oat, almond, and whole milk at no extra charge.</li>
+          <li>Take-home beans are roasted weekly.</li>
+        </ul>
+      </aside>
+    </section>
 
-  <section class="faq">
-    <h2 class="section-title">Questions we get a lot</h2>
-    <div class="accordion">
-      <div class="accordion-item">
-        <h3>
-          <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-1">Do you take reservations?</button>
-        </h3>
-        <div class="accordion-panel" id="faq-1">
-          <p>We don't — it's first-come, first-served. Window seats go fastest, so early mornings or after 2 PM are your best bet on weekends.</p>
+    <section class="faq">
+      <h2 class="section-title">Questions we get a lot</h2>
+      <div class="accordion">
+        <div class="accordion-item">
+          <h3>
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-1">Do you take reservations?</button>
+          </h3>
+          <div class="accordion-panel" id="faq-1">
+            <p>We don't — it's first-come, first-served. Window seats go fastest, so early mornings or after 2 PM are your best bet on weekends.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3>
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-2">Is there parking nearby?</button>
+          </h3>
+          <div class="accordion-panel" id="faq-2">
+            <p>Street parking on Lake City is metered until 6 PM. There's also a small public lot two doors down behind the pharmacy.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3>
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-3">Can I bring my laptop and work there?</button>
+          </h3>
+          <div class="accordion-panel" id="faq-3">
+            <p>Absolutely — that's half the reason people come. We only ask that during the Saturday morning rush (9–11 AM) you keep table time to about 90 minutes if there's a line.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3>
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-4">Do you have oat milk and other alternatives?</button>
+          </h3>
+          <div class="accordion-panel" id="faq-4">
+            <p>Yes — oat, almond, and whole milk are all no extra charge. We also keep a small selection of gluten-free pastries baked fresh on Thursdays and weekends.</p>
+          </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h3>
-          <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-2">Is there parking nearby?</button>
-        </h3>
-        <div class="accordion-panel" id="faq-2">
-          <p>Street parking on Lake City is metered until 6 PM. There's also a small public lot two doors down behind the pharmacy.</p>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h3>
-          <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-3">Can I bring my laptop and work there?</button>
-        </h3>
-        <div class="accordion-panel" id="faq-3">
-          <p>Absolutely — that's half the reason people come. We only ask that during the Saturday morning rush (9–11 AM) you keep table time to about 90 minutes if there's a line.</p>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h3>
-          <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-4">Do you have oat milk and other alternatives?</button>
-        </h3>
-        <div class="accordion-panel" id="faq-4">
-          <p>Yes — oat, almond, and whole milk are all no extra charge. We also keep a small selection of gluten-free pastries baked fresh on Thursdays and weekends.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <footer class="site-footer" id="contact">
+  <footer class="site-footer">
     <div class="footer-col">
       <p class="logo">Marigold <span>&amp;</span> Bean</p>
       <p>118 Lake City<br>Open daily, 7 AM – 6 PM</p>
@@ -124,11 +137,22 @@
     </div>
     <div class="footer-col">
       <h5>Quick links</h5>
-      <a href="menu.html">Menu</a>
-      <a href="about.html">About</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="contact.html">Contact</a>
+      <ul>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </div>
+    <div class="footer-col">
+      <h5>Follow</h5>
+      <ul class="social-links">
+        <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+        <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+        <li><a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+      </ul>
+    </div>
+    <p class="copyright">&copy; 2026 Marigold &amp; Bean. All rights reserved.</p>
   </footer>
 
   <button class="back-to-top" aria-label="Back to top">↑</button>

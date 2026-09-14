@@ -138,7 +138,54 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   /* ----------------------------------------------------------
-     7. Gallery lightbox / slider — Gallery page
+     7. Home carousel — Home page
+     Shows one moment from the cafe at a time. The controls and
+     generated dots update the visible slide and their ARIA state.
+     ---------------------------------------------------------- */
+  var homeCarousel = document.getElementById('home-carousel');
+
+  if (homeCarousel) {
+    var carouselSlides = Array.prototype.slice.call(homeCarousel.querySelectorAll('.carousel-slide'));
+    var carouselPrev = homeCarousel.querySelector('.carousel-prev');
+    var carouselNext = homeCarousel.querySelector('.carousel-next');
+    var carouselDots = homeCarousel.querySelector('.carousel-dots');
+    var activeSlide = carouselSlides.findIndex(function (slide) {
+      return slide.classList.contains('is-active');
+    });
+    var activeIndex = activeSlide === -1 ? 0 : activeSlide;
+
+    function showSlide(index) {
+      activeIndex = (index + carouselSlides.length) % carouselSlides.length;
+      carouselSlides.forEach(function (slide, slideIndex) {
+        var isActive = slideIndex === activeIndex;
+        slide.classList.toggle('is-active', isActive);
+        slide.setAttribute('aria-hidden', String(!isActive));
+      });
+
+      carouselDots.querySelectorAll('button').forEach(function (dot, dotIndex) {
+        var isActive = dotIndex === activeIndex;
+        dot.classList.toggle('is-active', isActive);
+        dot.setAttribute('aria-selected', String(isActive));
+        dot.tabIndex = isActive ? 0 : -1;
+      });
+    }
+
+    carouselSlides.forEach(function (slide, index) {
+      var dot = document.createElement('button');
+      dot.type = 'button';
+      dot.setAttribute('role', 'tab');
+      dot.setAttribute('aria-label', 'Show slide ' + (index + 1));
+      dot.addEventListener('click', function () { showSlide(index); });
+      carouselDots.appendChild(dot);
+    });
+
+    carouselPrev.addEventListener('click', function () { showSlide(activeIndex - 1); });
+    carouselNext.addEventListener('click', function () { showSlide(activeIndex + 1); });
+    showSlide(activeIndex);
+  }
+
+  /* ----------------------------------------------------------
+     8. Gallery lightbox / slider — Gallery page
      Clicking a thumbnail opens a full-size view with next/prev
      controls and keyboard arrow support; Escape closes it.
      ---------------------------------------------------------- */
@@ -198,7 +245,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   /* ----------------------------------------------------------
-     8. Contact form validation — Contact page
+     9. Contact form validation — Contact page
      Prevents submission (there's no backend) until every field
      passes a check, shows inline errors, and displays a success
      message when everything is valid.
